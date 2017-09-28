@@ -1,0 +1,51 @@
+body {
+    background-color: #eee;
+  }
+  
+  .logo {
+    margin-top: 3px;
+    padding-left: 20px;
+    display: block;
+  }
+  
+  h1, p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 12px;
+    line-height: 125%;
+  }
+  
+  .searchInput {
+    margin-left: 25px;
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 6px;
+    vertical-align: bottom;
+  }
+  
+  .results {
+    margin: 0 20px;
+  }
+  
+  li {
+    list-style-type: none;  
+    background-color: #f8f9fa;
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 1px #222;
+  }
+  
+  .results a {
+    color: #0645ad;
+  }
+  
+  .results a:visited {
+    color: #0b0080;
+  }
+  
+  #randomButton {
+    margin-top: 4px;
+  }
