@@ -9,6 +9,7 @@ Build a Wikipedia Viewer - Preliminary Things To Do:
 /*
 Wish List
   1. Make whole tweet box clickable.
+  2. Fix Wikipedia image to match the official image (shown when clicking Random Search).
 */
 
 $(document).ready(() => {
