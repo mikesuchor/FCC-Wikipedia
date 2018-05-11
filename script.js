@@ -4,16 +4,16 @@
   b. Button to initiate the search.
 2. I can click a button to see a random Wikipedia entry. */
 
-$(document).ready(function() {
+$(document).ready(() => {
     
       /* When the Search button is clicked, get and store the form input value in the searchInput variable and pass that variable to the Wikipedia API link*/
-      $('.searchButton').on('click', function() {
+      $('.searchButton').on('click', () => {
         $('.results').empty();
         var searchInput = $('.searchInput').val();
         var wikiapi = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${searchInput}&limit=10&namespace=0&format=json&callback=?`;
         
         /* Loops through the number of headers and dumps the information for the headers, description and links to the HTML */
-        $.getJSON(wikiapi, function(json) {
+        $.getJSON(wikiapi, json => {
           if (json[1].length === 0) {
             $('.results').append('<h1>No matches found</h1>');
           }
