@@ -1,8 +1,15 @@
-/* Build a Wikipedia Viewer - Preliminary Things To Do: 
+/* 
+Build a Wikipedia Viewer - Preliminary Things To Do: 
 1. I can search Wikipedia entries in a search box and see the resulting Wikipedia entries. Things needed:
   a. Form to input search.
   b. Button to initiate the search.
-2. I can click a button to see a random Wikipedia entry. */
+2. I can click a button to see a random Wikipedia entry.
+*/
+
+/*
+Wish List
+  1. Make whole tweet box clickable.
+*/
 
 $(document).ready(() => {
     
